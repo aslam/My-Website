@@ -1,0 +1,85 @@
+body {
+  font-family: Helvetica, Trebuchet MS, Arial, San Serif;
+  color: #999;
+  text-align: center;
+}
+
+.content {
+  text-align: center;
+  width: 700px;
+  margin: 0 auto; 
+}
+.content p {
+  text-align: right;
+  color: #444;
+  width: 524px;
+  float: right;
+  margin-top: 10px;
+  text-align: left; 
+}
+
+*|*:-moz-any-link img, img[usemap], object[usemap]  {
+  border:0px solid;
+}
+
+.content p .green {
+  font-weight: bold; 
+}
+
+.green { color: green; }
+.green a { color: green; }
+.green a:hover { text-decoration: underline; }
+
+h1 { 
+  font-size: 3.6em; 
+  margin-left: 0.5em;
+}
+
+h1 a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  float: right;
+  list-style-type: none; 
+  margin-left: 2.5em;
+}
+
+ul li {
+  float: left;
+  list-style-tipe: none; 
+}
+
+.header {
+  border-bottom: 3px solid grey;
+  float: left;
+  width: 100%; 
+}
+.header h1 {
+  float: left;
+  margin-bottom: 0.2em; 
+}
+.header ul {
+  margin-right: 5em; 
+}
+.header li {
+  display: inline;
+  margin-right: 0.2em; 
+}
+
+.footer {
+  border-top: 3px solid grey;
+  padding: 0.5em; 
+}
+
+.hidden {
+  display: none;
+}
+
+.clear {
+  clear: both;
+}
+
+
+
